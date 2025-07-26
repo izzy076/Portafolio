@@ -21,20 +21,20 @@ body {
   position: relative;
 }
 
-.contenedor-avatar{
+/* .contenedor-avatar{
     width: 300px;
   height: 300px;
 
-}
+} */
 
-.isla-avatar1{
+.contenedor-avatar{
     position: absolute;
     top: 45%;
-    left: 0%;
+    left: 8%;
 }
 
-.isla-avatar1 img{
-    width: 900px;
+.avatar{
+    width: 300px;
 }
 
 .islitas {
@@ -61,7 +61,7 @@ body {
 
 .isla2 {
   position: absolute;
-  top: 10%;
+  top: 5%;
   right: 5%;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .isla-habilidades img {
-  width: 95%;
+  width: 55%;
   height: 10%;
 }
 

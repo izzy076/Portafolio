@@ -10,8 +10,8 @@ body {
   height: 100vh;
   grid-template-areas:
     "header"
-    "main"
-    "footer";
+    "main";
+    background-color: #7092be;
 }
 
 header {
@@ -33,6 +33,46 @@ header h1 {
   color: white;
 }
 
-main{
-    background-color: #7092BE;
+main {
+  background-color: #7092be;
+}
+
+.foto {
+  padding: 5rem;
+  position: absolute;
+}
+
+.foto img{
+    width: 500px;
+}
+
+.artes {
+  padding: 5rem;
+  position: absolute;
+  left: 50%;
+}
+
+.artes img{
+    width: 500px;
+}
+
+.lista {
+  padding: 5rem;
+  position: absolute;
+  top: 120%;
+}
+
+.lista img{
+    height: 26rem;
+}
+
+.escuchar {
+  padding: 5rem;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+}
+
+.escuchar img{
+    height: 38rem;
 }

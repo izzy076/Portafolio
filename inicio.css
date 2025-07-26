@@ -2,149 +2,142 @@
 @import url("https://fonts.cdnfonts.com/css/rangile");
 @import url("https://fonts.cdnfonts.com/css/plush-trial");
 @import url("https://fonts.cdnfonts.com/css/zilla-slab");
-@import url('https://fonts.cdnfonts.com/css/sansita-one-3');
-@import url('https://fonts.cdnfonts.com/css/ncl-rabegs');
-
+@import url("https://fonts.cdnfonts.com/css/sansita-one-3");
+@import url("https://fonts.cdnfonts.com/css/ncl-rabegs");
 
 :root {
-    --color-fondo-inicio: #0b1424;
-    --color-letra-titulo: #cacae1;
+  --color-fondo-inicio: #0b1424;
+  --color-letra-titulo: #cacae1;
 }
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
 header {
-    grid-area: header;
-    background-color: var(--color-letra-titulo);
-    padding: 1rem;
-    text-align: center;
-    margin: 0;
+  grid-area: header;
+  background-color: var(--color-letra-titulo);
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
 }
 
-header svg{
-    color: black;
-    display: grid;
-    grid-template-areas: "icono titulo";
+header svg {
+  color: black;
+  display: grid;
+  grid-template-areas: "icono titulo";
 }
 
 header h1 {
-    font-size: 5rem;
-    background-color: var(--color-letra-titulo);
-    font-family: 'Sansita One', sans-serif;
-    margin: 0;
+  font-size: 5rem;
+  background-color: var(--color-letra-titulo);
+  font-family: "Sansita One", sans-serif;
+  margin: 0;
 }
 
 main {
-    grid-area: main;
-    background-color: var(--color-fondo-inicio);
-    padding: 1rem;
-    display: grid;
-    grid-template-rows: auto auto;
-    gap: 2rem;
+  background-color: var(--color-fondo-inicio);
+  padding: 1rem;
 }
 
-.section1 {
-    display: grid;
-    grid-template-areas: "foto texto";
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 2rem;
+.seccion-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .foto {
-    margin: 4rem;
-    grid-area: foto;
-    display: flex;
-    align-items: center;
+  margin: 4rem;
+  grid-area: foto;
+  display: flex;
+  align-items: center;
 }
 
 .foto img {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-}
-
-.textos {
-    grid-area: textos;
-    display: grid;
-    gap: 1rem;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
 
 .texto {
-    padding: 1rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 20px;
-    font-family: "Zilla Slab", sans-serif;
-    color: whitesmoke;
-}
-
-p {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  align-items: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  font-family: "Zilla Slab", sans-serif;
+  color: whitesmoke;
+  margin-left: 2rem;
+  width: 70%;
 }
 
 ul {
-    padding: 1rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.2rem;
-    border-radius: 20px;
-    color: whitesmoke;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  color: whitesmoke;
 }
 
 .section2 {
-    display: grid;
-    grid-template-areas: "stitch texto1";
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
-h2{
-    font-size: 50px;
-    color: var(--color-letra-titulo);
-    font-family: 'Sansita One', sans-serif;
+h2 {
+  font-size: 100px;
+  color: var(--color-letra-titulo);
+  font-family: "Sansita One", sans-serif;
 }
 
-.curioso{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 3rem;
-    color: whitesmoke;
-    font-size: 2rem;
+.stitch {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.stitch{
-    width: 350px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.curioso {
+  margin-top: 2rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 1rem;
+  display: flex;
+  align-items: normal;
+  text-align: center;
+  gap: 3rem;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  width: 90%;
 }
 
-footer{
-    grid-area: footer;
-    background-color: rgb(7, 1, 39);
-    color: white;
-    text-align: center;
-    padding: 3rem;
-    font-size: 1.5rem;
-    font-weight: bold;
+footer {
+  grid-area: footer;
+  background-color: rgb(7, 1, 39);
+  color: rgb(225, 229, 238);
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
 }

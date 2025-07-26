@@ -45,6 +45,12 @@ main{
 
 form{
     color: black;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    gap: 15px;
 }
 
 input{
@@ -55,24 +61,25 @@ input{
 
 .mensaje{
     height: 10rem;
-    width: 30rem;
 }
 
 .boton{
     background-color: #2A4359;
     width: 10rem;
+    height: 2rem;
     font-size: 1rem;
     text-align: center;
     align-items: center;
+    margin: auto;
 }
 
 footer{
     height: 10vh;
     background-color: #24363f;
     margin-top: 2rem;
-
-}
-
-footer h5{
-
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
 }
