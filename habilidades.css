@@ -1,0 +1,38 @@
+@import url("https://fonts.cdnfonts.com/css/sansita-one-3");
+
+* {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  background-color: #0b1424;
+  padding: 1rem;
+  text-align: center;
+}
+
+header svg {
+  color: white;
+  display: grid;
+  grid-template-areas: "icono titulo";
+}
+
+header h1 {
+  font-size: 5rem;
+  font-family: "Sansita One", sans-serif;
+  margin: 0;
+  color: white;
+}
+
+main{
+    background-color: #7092BE;
+}

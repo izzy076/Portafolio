@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/stick-no-bills');
+@import url('https://fonts.cdnfonts.com/css/mangoli');
+@import url('https://fonts.cdnfonts.com/css/i-ini-sans');
+@import url('https://fonts.cdnfonts.com/css/ketika-sans');
+
+
+*{
+    margin: 0;
+}
+
+header{
+    background-image: url(images/image\ 1\ \(13\).svg);
+    height: 35vh;
+    
+}
+
+header svg{
+    color: rgb(10, 3, 41);
+}
+
+header h1{
+text-align: center;
+font-size: 3rem;
+font-family: 'Stick No Bills', sans-serif;
+color: rgb(9, 12, 58);
+}
+header h3{
+    text-align: center;
+    color: rgb(29, 10, 82);
+    padding: 1rem;
+    font-size: 22px;
+}
+
+header p{
+    text-align: center;
+    color: rgb(14, 18, 80);
+font-family: 'Ketika Sans', sans-serif;
+font-size: 18px;
+} 
+
+main{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+form{
+    color: black;
+}
+
+input{
+    color: white;
+    background-color:#BFCDD9;
+    
+}
+
+.mensaje{
+    height: 10rem;
+    width: 30rem;
+}
+
+.boton{
+    background-color: #2A4359;
+    width: 10rem;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    height: 10vh;
+    background-color: #24363f;
+    margin-top: 2rem;
+
+}
+
+footer h5{
+
+}

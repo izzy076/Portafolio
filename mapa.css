@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/fondo-de-pintura-de-acuarela-para-el-holi-festival\ 1.svg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.isla-avatar {
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+
+.contenedor-avatar{
+    width: 300px;
+  height: 300px;
+
+}
+
+.isla-avatar1{
+    position: absolute;
+    top: 45%;
+    left: 0%;
+}
+
+.isla-avatar1 img{
+    width: 900px;
+}
+
+.islitas {
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+.contenedor-isla {
+  width: 300px;
+  height: 300px;
+}
+
+/* .contenedor-isla img {
+  width: 60%;
+  object-fit: contain;
+} */
+
+.isla1 {
+  position: absolute;
+  top: 2%;
+  left: 50px;
+}
+
+.isla2 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.isla3 {
+  position: absolute;
+  bottom: 5%;
+  left: 200px;
+}
+
+.isla4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.isla-inicio img {
+  width: 80%;
+  height: 80%;
+  /* object-fit: contain; */
+}
+
+.isla-habilidades img {
+  width: 95%;
+  height: 10%;
+}
+
+.isla-proyectos img{
+    width: 95%;
+    height: 10%;
+}
+
+.isla-contacto img{
+    width: 50%;
+    height: 0%;
+}
+
+/* .avatar{
+     width: 70rem;
+    height: 70rem;
+    margin-top: 15rem;
+}
+
+.inicio{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 50rem;
+    justify-content: end;
+    align-items: start;
+}
+
+.isa{
+    margin-left: 50rem;
+    justify-content: end;
+    align-items: start;
+}
+
+.habilidades{
+     width: 20rem;  
+    height: 20rem;
+}
+
+.proyectos{
+     width: 20rem;
+    height: 20rem;
+}
+
+.contacto{
+     width: 50rem;
+    height: 50rem;
+}
+
+/* .imagen-mar{
+    width: 84.5rem;
+    height: 40.3rem;
+    margin: 0%;
+} */
